@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mysmalldemo.FristActivity">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+        android:layout_weight="1"
+      android:orientation="horizontal"
+      >
+      <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        >
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="推荐"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="选课"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="搜索"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="二维码"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+  </LinearLayout>
+      <FrameLayout
+          android:id="@+id/bigPager"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="8"
+          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+       >
+        <RadioButton
+            android:id="@+id/shouye"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="首页"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/wodeke"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="我的课"
+          android:gravity="center"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/gerezhongxin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="个人中心"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
